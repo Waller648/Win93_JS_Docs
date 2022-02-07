@@ -1,5 +1,8 @@
 # Introduction
 
-The App Store and the PK93 File format are currently both in development. The documentation for creating PK93 packages will be available when we make more progress.
+This is how you make a package :D!
 
-Thank you for your patience
+
+``
+le._apps.test = {name:"Test", icon:"/c/sys/skins/w93/cdrom.png", exec:function(){var l=$window({baseHeight:"auto", height:"auto", html:"Hello World",maximizable:false,minimizable:false,closable:false,btnOk:"Close"});l.el.title.style.background = "#000000";l.el.title.innerHTML = "<b>Window</b>"}}
+``
